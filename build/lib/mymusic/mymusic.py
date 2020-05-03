@@ -171,8 +171,8 @@ class MainForm(FormBaseNew):
             self.infos[3].value = ""
         if MyMediaPlayer().state in  [State.Paused]:
             self.infos[3].important = True
-        if MyMediaPlayer().state in  [State.Stopped]:
-            self.infos[0].highlight = True
+        else:
+            self.infos[0].highlight = False
         self.infos[3].update()
 #       del error of vlc
         self.curses_pad.redrawwin()
