@@ -10,7 +10,7 @@ from setuptools import setup, find_packages
 import mymusic
 
 NAME = "mymusic"
-VERSION = "1.0.0"
+VERSION = "1.0.1"
 DESC = "console npyscreen for my music"
 URLPKG = "https://github.com/fraoustin/mymusic.git"
 
